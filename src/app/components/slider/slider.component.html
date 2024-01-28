@@ -1,0 +1,11 @@
+<body class="container">
+    <h2>Movies</h2>
+    <div class="parent">
+        <cdk-virtual-scroll-viewport itemSize="1">
+            <div *cdkVirtualFor="let i of imageArray">
+                <img src="{{i}}" alt="">
+            </div>
+        </cdk-virtual-scroll-viewport>
+    </div>
+
+</body>

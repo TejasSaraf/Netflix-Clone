@@ -1,0 +1,19 @@
+.parent {
+    height: 50vh;
+}
+
+img {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+:host ::ng-deep .cdk-virtual-scrollable {
+    contain: none;
+}
+
+:host ::ng-deep .cdk-virtual-scroll-content-wrapper {
+    transform: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
